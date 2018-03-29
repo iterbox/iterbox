@@ -19,3 +19,6 @@ Changed user name in the locla .git/config
 
 
 This line pushed with github_AnnaKisil and AnnaKisil.github.com
+
+
+This line is written by anna on her local branch
