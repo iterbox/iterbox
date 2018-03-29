@@ -12,3 +12,7 @@ AnnaKisil successfully pushed to iterbox/iterbox  After IlyaKisil (Owner of orga
 
 This line pushed with github_AnnaKisil2 and AnnaKisil.github.com => worked (but shouldn't?)
 Changed user name in the locla .git/config
+
+
+This line pushed with github_IlyaKisil and IlyaKisil.github.com => worked (but shouldn't?)
+Changed user name in the locla .git/config
