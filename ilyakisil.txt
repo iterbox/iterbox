@@ -28,3 +28,7 @@ Another line is written by anna on her local branch
 
 This line is written by anna when she forked out from the main project
 Second commit This line is written by anna when she forked out from the main project
+
+
+
+This line was pushed to AnnaKisil/iterbox (at her fork of iterbox) after anna was removed as a collaborator
