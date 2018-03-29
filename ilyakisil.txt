@@ -14,5 +14,8 @@ This line pushed with github_AnnaKisil2 and AnnaKisil.github.com => worked (but 
 Changed user name in the locla .git/config
 
 
-This line pushed with github_IlyaKisil and IlyaKisil.github.com => worked (but shouldn't?)
+This line pushed with github_IlyaKisil and IlyaKisil.github.com => worked
 Changed user name in the locla .git/config
+
+
+This line pushed with github_AnnaKisil and AnnaKisil.github.com
