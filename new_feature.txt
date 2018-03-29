@@ -1,0 +1,7 @@
+This file contains a new feature
+
+Feature 1
+Feature 2
+Feature 3
+
+All features are ready for the pull request to the main project (iterbox/iterbox)
