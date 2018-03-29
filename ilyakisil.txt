@@ -6,4 +6,4 @@ This line pushed with github_IlyaKisil and github.com => apparently wouldn't wor
 This line pushed with github_IlyaKisil and IlyaKisil.github.com
 
 
-This line pushed with github_AnnaKisil
+This line pushed with github_AnnaKisil =>failed, since AnnaKisil has not been granted rights
