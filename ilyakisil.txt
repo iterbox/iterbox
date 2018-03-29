@@ -7,3 +7,7 @@ This line pushed with github_IlyaKisil and IlyaKisil.github.com
 
 
 This line pushed with github_AnnaKisil =>failed, since AnnaKisil has not been granted rights
+AnnaKisil successfully pushed to iterbox/iterbox  After IlyaKisil (Owner of organisation) invited AnnaKisil as collaborator.
+
+
+This line pushed with github_AnnaKisil2 and AnnaKisil.github.com
