@@ -8,6 +8,8 @@ class IsOddTests(unittest.TestCase):
         self.assertTrue(IsOdd(1))
     def testTwo(self):
         self.assertFalse(IsOdd(2))
+    def testThree(self):
+        self.assertFalse(IsOdd(4))
 
 def main():
     unittest.main()
