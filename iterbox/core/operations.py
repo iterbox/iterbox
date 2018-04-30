@@ -171,3 +171,6 @@ def mode_n_product(tensor, matrix, mode):
     new_shape[mode] = matrix.shape[0]
     result = fold(np.dot(matrix, unfold(tensor, mode)), mode, tuple(new_shape))
     return result
+
+def calc_sum(a,b):
+    return a+b

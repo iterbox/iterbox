@@ -7,6 +7,9 @@ Untitled*.ipynb
 ########################
 ### TEMPLATE FOR PYTHON
 ########################
+# Unit tests
+.pytest_cache/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

@@ -428,3 +428,6 @@ def residual_tensor(tensor_A, tensor_B):
     else:
         raise TypeError('Unknown data type of the approximation')
     return residual
+
+def is_tensor(obj):
+    return isinstance(obj, Tensor)
