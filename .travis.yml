@@ -5,18 +5,22 @@ env:
   matrix:
     - DISTRIB="ubuntu" PYTHON_VERSION="3.6" COVERAGE="true"
 
-python:
-  - "3.6"
+git:
+  depth: 3
+
+branches:
+  only:
+  - master
 
 install:
-  - source travis_install.sh
+  - source ci_scripts/travis_install.sh
   - pip install pytest pytest-cov
 
 script:
-  - pytest -v --cov iterbox iterbox
+  - source ci_scripts/travis_test.sh
 
 after_success:
-  - if [[ "$COVERAGE" == "true" ]]; then coveralls || echo "failed"; fi
+  - source ci_scripts/travis_success.sh
 
 notifications:
   email: false
