@@ -1,3 +1,5 @@
+Master branch
+=============
 |Travis|_ |Codecov|_
 
 .. |Travis| image:: https://img.shields.io/travis/iterbox/iterbox/master.svg?label=TravisCI
@@ -7,6 +9,16 @@
 .. |Codecov| image:: https://img.shields.io/coveralls/github/iterbox/iterbox/master.svg
 .. _Codecov: https://codecov.io/gh/iterbox/iterbox
 
+Develop branch
+==============
+|Travis|_ |Codecov|_
+
+.. |Travis| image:: https://img.shields.io/travis/iterbox/iterbox/develop.svg?label=TravisCI
+.. _Travis: https://travis-ci.org/iterbox/iterbox/
+
+
+.. |Codecov| image:: https://img.shields.io/coveralls/github/iterbox/iterbox/develop.svg
+.. _Codecov: https://codecov.io/gh/iterbox/iterbox
 
 Interactive Tensor Toolbox (iterbox)
 ====================================
