@@ -9,7 +9,7 @@ def readme():
         return f.read()
 
 config = dict(
-    name='itebox',
+    name='iterbox',
     version=__version__,
     packages=find_packages(exclude=['docs']),
     url='https://github.com/iterbox/iterbox',
