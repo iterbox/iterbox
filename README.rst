@@ -1,3 +1,13 @@
+.. -*- mode: rst -*-
+
+|Travis|_ |Codecov|_
+
+.. |Travis| image:: https://api.travis-ci.org/iterbox/itebox.svg?branch=master
+.. _Travis: https://travis-ci.org/iterbox/iterbox
+
+.. |Codecov| image:: https://codecov.io/github/iterbox/iterbox/badge.svg?branch=master&service=github
+.. _Codecov: https://codecov.io/github/iterbox/iterbox?branch=master
+
 Interactive Tensor Toolbox (iterbox)
 ====================================
 
