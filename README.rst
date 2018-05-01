@@ -1,12 +1,16 @@
-.. -*- mode: rst -*-
+.. raw:: html
 
-|Travis|_ |Codecov|_
+    <p align="center">
+        <a href="https://travis-ci.org/iterbox/iterbox" target=blank>
+            <img src="https://travis-ci.org/iterbox/iterbox.svg?branch=master"
+        </a>
+        <a href="https://coveralls.io/github/iterbox/iterbox?branch=master" target=blank>
+            <img src="https://coveralls.io/repos/github/iterbox/iterbox/badge.svg?branch=master"
+        </a>
+    </p>
 
-.. |Travis| image:: https://api.travis-ci.org/iterbox/itebox.svg?branch=master
-.. _Travis: https://travis-ci.org/iterbox/iterbox
+\
 
-.. |Codecov| image:: https://codecov.io/github/iterbox/iterbox/badge.svg?branch=master&service=github
-.. _Codecov: https://codecov.io/github/iterbox/iterbox?branch=master
 
 Interactive Tensor Toolbox (iterbox)
 ====================================
