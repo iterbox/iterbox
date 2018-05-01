@@ -3,5 +3,5 @@ This module contains methods for the most common operations within multilinear a
 classes for the tensors represented through various tensor decompositions
 """
 
-from .structures import Tensor, TensorCPD, TensorTKD, TensorTT, super_diag_tensor, residual_tensor
-from .operations import khatri_rao, hadamard, kronecker, mode_n_product, unfold, fold
+from .structures import Tensor, super_diag_tensor
+from .operations import mode_n_product, unfold, fold
