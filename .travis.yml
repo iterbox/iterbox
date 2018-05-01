@@ -1,13 +1,25 @@
+sudo: false
 language: python
+
+env:
+  matrix:
+    - DISTRIB="ubuntu" PYTHON_VERSION="3.6" COVERAGE="true"
+
+addons:
+  apt:
+    packages:
+      - git
+      - python-pip
 
 python:
   - "3.6"
 
 install:
-  - pip install pytest
+  - source travis_install.sh
+  - pip install pytest pytest-cov
 
 script:
-- py.test -v
+  - py.test -v --cov
 
 after_success:
-  - coveralls
+  - if [[ "$COVERAGE" == "true" ]]; then coveralls || echo "failed"; fi
