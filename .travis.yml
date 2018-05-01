@@ -11,6 +11,7 @@ git:
 branches:
   only:
   - master
+  - develop
 
 install:
   - source ci_scripts/travis_install.sh
