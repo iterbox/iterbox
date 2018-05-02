@@ -19,9 +19,17 @@ branches:
   - develop
 
 install:
+  - echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
+  - date +%Y-%m-%d\ %H:%M:%S
   - source ci_scripts/travis_install.sh
+  - echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
+  - date +%Y-%m-%d\ %H:%M:%S
   - pip install -r requirements.txt
+  - echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
+  - date +%Y-%m-%d\ %H:%M:%S
   - pip install pytest pytest-cov
+  - echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
+  - date +%Y-%m-%d\ %H:%M:%S
 
 script:
   - source ci_scripts/travis_test.sh

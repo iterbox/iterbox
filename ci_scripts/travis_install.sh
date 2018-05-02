@@ -5,7 +5,8 @@ set -e
 echo 'List files from cached directories'
 echo 'pip:'
 ls $HOME/.cache/pip
-
+echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
+date +%Y-%m-%d\ %H:%M:%S
 if [[ "$DISTRIB" == "ubuntu" ]]; then
     # Deactivate the travis-provided virtual environment and setup a
     # conda-based environment instead
@@ -28,7 +29,8 @@ if [[ "$DISTRIB" == "ubuntu" ]]; then
     conda create -n testenv --yes python=$PYTHON_VERSION pip
     source activate testenv
 fi
-
+date +%Y-%m-%d\ %H:%M:%S
+echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
 if [[ "$COVERAGE" == "true" ]]; then
     pip install coverage coveralls
 fi
