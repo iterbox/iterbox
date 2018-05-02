@@ -5,10 +5,12 @@ language: python
 cache:
   directories:
   - $HOME/.cache/pip
+  - $HOME/.ccache
 
 env:
   matrix:
     - DISTRIB="ubuntu" PYTHON_VERSION="3.6" COVERAGE="true"
+    - DISTRIB="conda" PYTHON_VERSION="3.6" COVERAGE="true"
 
 git:
   depth: 3
@@ -19,17 +21,9 @@ branches:
   - develop
 
 install:
-  - echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
-  - date +%Y-%m-%d\ %H:%M:%S
   - source ci_scripts/travis_install.sh
-  - echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
-  - date +%Y-%m-%d\ %H:%M:%S
   - pip install -r requirements.txt
-  - echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
-  - date +%Y-%m-%d\ %H:%M:%S
   - pip install pytest pytest-cov
-  - echo '+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
-  - date +%Y-%m-%d\ %H:%M:%S
 
 script:
   - source ci_scripts/travis_test.sh

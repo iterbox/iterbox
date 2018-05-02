@@ -1,24 +1,28 @@
 Master branch
 =============
-|Travis|_ |Codecov|_
+|Travis|_ |Codecov|_ |Appveyor|_
 
 .. |Travis| image:: https://img.shields.io/travis/iterbox/iterbox/master.svg?label=TravisCI
 .. _Travis: https://travis-ci.org/iterbox/iterbox/
 
-
 .. |Codecov| image:: https://img.shields.io/coveralls/github/iterbox/iterbox/master.svg
 .. _Codecov: https://codecov.io/gh/iterbox/iterbox
 
+.. |Appveyor| image:: https://ci.appveyor.com/api/projects/status/sh2rk41gpn26h7a7/branch/master?svg=true
+.. _Appveyor: https://ci.appveyor.com/api/projects/status/sh2rk41gpn26h7a7/branch/master?svg=true
+
 Develop branch
 ==============
-|TravisDev|_ |CodecovDev|_
+|TravisDev|_ |CodecovDev|_ |AppveyorDev|_
 
 .. |TravisDev| image:: https://img.shields.io/travis/iterbox/iterbox/develop.svg?label=TravisCI
 .. _TravisDev: https://travis-ci.org/iterbox/iterbox/
 
-
 .. |CodecovDev| image:: https://img.shields.io/coveralls/github/iterbox/iterbox/develop.svg
 .. _CodecovDev: https://codecov.io/gh/iterbox/iterbox
+
+.. |AppveyorDev| image:: https://ci.appveyor.com/api/projects/status/sh2rk41gpn26h7a7/branch/develop?svg=true
+.. _AppveyorDev: https://ci.appveyor.com/api/projects/status/sh2rk41gpn26h7a7/branch/develop?svg=true
 
 Interactive Tensor Toolbox (iterbox)
 ====================================
