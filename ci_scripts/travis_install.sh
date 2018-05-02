@@ -2,6 +2,10 @@
 
 set -e
 
+echo 'List files from cached directories'
+echo 'pip:'
+ls $HOME/.cache/pip
+
 if [[ "$DISTRIB" == "ubuntu" ]]; then
     # Deactivate the travis-provided virtual environment and setup a
     # conda-based environment instead

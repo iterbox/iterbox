@@ -1,6 +1,10 @@
+git:
+  depth: 3
+
 branches:
   only:
   - master
+  - develop
 
 environment:
   global:
