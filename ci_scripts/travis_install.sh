@@ -31,11 +31,6 @@ if [[ "$DISTRIB" == "conda" ]]; then
     # provided versions
     conda create -n testenv --yes python=$PYTHON_VERSION pip
     source activate testenv
-elif [[ "$DISTRIB" == "ubuntu" ]]; then
-    # Use standard ubuntu packages in their default version
-    echo $DISTRIB
-    echo 'Using the travis-provided virtual environment'
-    echo "alias python=python3" > .bash_aliases
 fi
 
 if [[ "$COVERAGE" == "true" ]]; then

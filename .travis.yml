@@ -9,7 +9,6 @@ cache:
 
 env:
   matrix:
-    - DISTRIB="ubuntu" PYTHON_VERSION="3.6" COVERAGE="true"
     - DISTRIB="conda" PYTHON_VERSION="3.6" COVERAGE="true"
 
 git:
