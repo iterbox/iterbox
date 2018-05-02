@@ -5,9 +5,12 @@ set -e
 echo 'List files from cached directories'
 echo 'pip:'
 ls $HOME/.cache/pip
+echo 'ccache:'
 ls $HOME/.ccache
 
 if [[ "$DISTRIB" == "conda" ]]; then
+    echo $DISTRIB
+    echo 'Setting up a conda-based virtual environment'
     # Deactivate the travis-provided virtual environment and setup a
     # conda-based environment instead
     deactivate
@@ -32,7 +35,7 @@ elif [[ "$DISTRIB" == "ubuntu" ]]; then
     # Use standard ubuntu packages in their default version
     echo $DISTRIB
     echo 'Using the travis-provided virtual environment'
-
+    echo "alias python=python3" > .bash_aliases
 fi
 
 if [[ "$COVERAGE" == "true" ]]; then
